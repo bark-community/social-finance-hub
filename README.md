@@ -25,6 +25,12 @@ Note: Find configuration options in the `package.json` file.
 ## Build
 To build the project for the mainnet environment, run `npm run build:main`. The build artifacts will be stored in the `www` directory.
 
+## Application UI
+
+App color Guide:
+
+https://www.radix-ui.com/colors/custom
+
 ## How to Contribute
 To contribute or report issues, join our Discord at: https://discord.gg/
 
