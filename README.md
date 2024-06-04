@@ -16,7 +16,7 @@ BarkHub is a platform for BARK users, offering a seamless experience with popula
 
 ## Installation
 1. Clone the project: `git clone https://github.com/bark-community/social-finance-hub`
-2. Navigate to the directory: `cd social-finance-hub&& npm install`
+2. Navigate to the directory: `cd social-finance-hub && npm install`
 3. Start the project with the local configuration: `npm start`
 4. Start the project with the dev configuration: `npm run start:dev`
 
@@ -25,13 +25,11 @@ Note: Find configuration options in the `package.json` file.
 ## Build
 To build the project for the mainnet environment, run `npm run build:main`. The build artifacts will be stored in the `www` directory.
 
-## Credits
-Special thanks to all the amazing BARK builders.
-
 ## How to Contribute
 To contribute or report issues, join our Discord at: https://discord.gg/
 
 ## Support
-If you appreciate our work, consider staking with us at https://
-Vote account: 
+If you appreciate our work, consider staking with us at https:// (application URI here)
+
+Vote account: (Staking Account Here)
 
