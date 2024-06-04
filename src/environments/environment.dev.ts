@@ -5,11 +5,11 @@ import { getBaseConfig } from "./base-config";
 export const environment: EnvironmentConfig = {
   name: EnvironmentName.Development,
   production: false,
-  solanaEnv: 'mainnet-beta',
-  solanaCluster: 'https://carole-l8ne8x-fast-mainnet.helius-rpc.com',
+  solanaEnv: 'devnet',
+  solanaCluster: 'https://devnet.helius-rpc.com/?api-key=43acd58f-d760-4b28-a418-762dc9aba97e',
   apiUrl: "https://dev-api.barkprotocol.app",
-  platformFeeCollector:'81QNHLve6e9N2fYNoLUnf6tfHWV8Uq4qWZkkuZ8sAfU1',
-  platformATAbSOLFeeCollector:'BKSiuLdsNrj6oqQCgSSVXhfraK4WdrC8t7mnYWcMcM13',
+  platformFeeCollector:'BRKRS5C522PrBK91DpcKWhiDXUwkA69b4oeYaUCff2eR',
+  platformATAbSOLFeeCollector:'BRKRS5C522PrBK91DpcKWhiDXUwkA69b4oeYaUCff2eR',
   turnStile: '0x4AAAAAAAWLe07W81onsc2Q',
   ...getBaseConfig()
 };

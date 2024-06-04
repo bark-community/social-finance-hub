@@ -11,7 +11,7 @@ export const getBaseConfig = (): BaseConfig => {
       {
         name: 'Helius',
         imageURL: '../assets/images/helius-icon.png',
-        value: 'https://carole-l8ne8x-fast-mainnet.helius-rpc.com'
+        value: 'https://mainnet.helius-rpc.com/?api-key=43acd58f-d760-4b28-a418-762dc9aba97e'
       },
       
       {

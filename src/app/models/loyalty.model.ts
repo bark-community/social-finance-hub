@@ -9,6 +9,7 @@ export interface LoyaltyBooster {
     veMNDE_Boost:             number;
     veBLZE_Boost:             number;
     SolanaHub_Boost:          number;
+    BarkHub_Boost:            number;
     hubDomain_Boost:          number;
     referral_Boost:           number;
 }
@@ -32,6 +33,7 @@ export interface PointsBreakDown {
     bSOLpts:        number;
     mSOLpts:        number;
     hubSOLpts:       number;
+    barkSOLpts:       number;
     veMNDEpts:      number;
     veBLZEpts:      number;
     referralPts:    number;
@@ -48,8 +50,10 @@ export interface PrizePool {
       BLZE: number
       SOL: number
       bSOL: number
+      barkSOL: number
       hubSOL: number
       mSOL: number
+      BARK: number
     }
     breakdown: {
       weekly_BLZE_emmistion: number
